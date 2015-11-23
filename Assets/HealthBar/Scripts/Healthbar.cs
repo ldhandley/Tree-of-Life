@@ -52,7 +52,7 @@ public class Healthbar : MonoBehaviour {
 	public bool alive = true;
 
 	//For demo purposes, store player's initial transform (so later it can be respawned there)
-	Vector3 startPos;
+//	Vector3 startPos;
 
 	//used to choose between left or right alignment
 	public Positioning positioning;
@@ -65,7 +65,7 @@ public class Healthbar : MonoBehaviour {
 		fontSize = Mathf.Clamp(fontSize, 5, 30);
 		Debugger();
 		BuildHierarchy();
-		startPos = player.transform.position;
+//		startPos = player.transform.position;
 	}
 
 
@@ -121,7 +121,7 @@ public class Healthbar : MonoBehaviour {
 	//Modify this to change the way of dieing (this just for the demo scene (respawn player at starting location after 2 seconds)
 	//Find IENumerator at the very bottom of the code.
 	void die(){
-		StartCoroutine(Resurrection());
+//		StartCoroutine(Resurrection());
 	}
 
 	//Changes bar color depending on what values are set in the inspector
@@ -382,13 +382,13 @@ public class Healthbar : MonoBehaviour {
 	}
 
 	//This is only for the demo - to bring player back to life after 2 seconds and respawn it back to the start position
-	IEnumerator Resurrection(){
-		yield return new WaitForSeconds(2.0F);
-		player.transform.position = startPos;
-		alive = true;
-		health = 1000;
+//	IEnumerator Resurrection(){
+//		yield return new WaitForSeconds(2.0F);
+//		player.transform.position = startPos;
+//		alive = true;
+//		health = 1000;
 
-	}
+//	}
 
 	void Debugger(){
 		myTheme = FindThemeIndex(chosenTheme);
