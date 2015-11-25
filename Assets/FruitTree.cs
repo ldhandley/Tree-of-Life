@@ -38,6 +38,7 @@ public class FruitTree : MonoBehaviour {
 			Rigidbody y = Fruits [0].GetComponent<Rigidbody> ();
 			y.useGravity = true;
 			y.isKinematic = false;
+			Fruits [0].GetComponent<Fruit_Behavior> ().my_prefab = Fruit_To_Grow;
 			Fruits.Remove(Fruits[0]);
 		}
 	}

@@ -6,6 +6,8 @@ public class Fruit_Behavior : MonoBehaviour {
 	private float fruit_growing;
 	public float growth_speed;
 	public AudioClip eating_sound;
+	public GameObject my_prefab;
+	public GameObject tree;
 	// Use this for initialization
 	void Start () {
 		max_fruit_size = gameObject.transform.localScale.y;
@@ -24,14 +26,15 @@ public class Fruit_Behavior : MonoBehaviour {
 
 
 	}
-
+	
 	void OnCollisionEnter(Collision collision) {
 
 		if (collision.gameObject.name == "Player") {
 			AudioSource audio = collision.gameObject.GetComponent<AudioSource> ();
 			audio.PlayOneShot (eating_sound);
-			Destroy(gameObject);
 			GameObject.Find ("HealthBar").GetComponent<Healthbar> ().ModifyHealth (-100);
+			GameObject.Find("Player").GetComponent<Food_Manager> ().EatenLast (my_prefab);
+			Destroy(gameObject);
 		}
 	}
 

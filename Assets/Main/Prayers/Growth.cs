@@ -9,6 +9,7 @@ public class Growth : MonoBehaviour {
 	public float growth_speed = 1;
 	// Use this for initialization
 	void Start () {
+		Thing_To_Grow = GameObject.Find ("Player").GetComponent<Food_Manager> ().Last_Fruit_Eaten.GetComponent<Fruit_Behavior> ().tree;
 		Debug.Log ("STUFF IS GROWING!");
 
 		Vector3 playerPos = GameObject.Find ("Player").transform.position;
@@ -30,6 +31,7 @@ public class Growth : MonoBehaviour {
 			tree_growing = Mathf.Min(tree_growing,max_tree_size);
 			x.transform.localScale = new Vector3 (tree_growing,tree_growing,tree_growing);
 		} else {
+			Destroy(gameObject);
 		}
 	}
 }
