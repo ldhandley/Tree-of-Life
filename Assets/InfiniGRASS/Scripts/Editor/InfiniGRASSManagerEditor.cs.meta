@@ -1,0 +1,70 @@
+fileFormatVersion: 2
+guid: fb596aa58a36e9f4ab1f5e6ac927e316
+timeCreated: 1440853854
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GrassICON1: {fileID: 2800000, guid: 42cf3abcf567c80489f56d6f684ef6b7, type: 3}
+  - GrassICON2: {fileID: 2800000, guid: c7422633c33e6644ba42ef0eca2d42bd, type: 3}
+  - GrassICON3: {fileID: 2800000, guid: 5cb2c0bbebe913a4280d04d539dd8c6f, type: 3}
+  - GrassICON4: {fileID: 2800000, guid: 549654bd6a246fa429f0800633c39184, type: 3}
+  - GrassICON5: {fileID: 2800000, guid: 15ad8f732f6a7f54094f8eddb9dbfd7d, type: 3}
+  - GrassICON6: {fileID: 2800000, guid: 7a84179269a25e041afbb46dba97f82f, type: 3}
+  - GrassICON7: {fileID: 2800000, guid: 2beb0fa812e180340a3c1aafb6fda7ac, type: 3}
+  - GrassICON8: {fileID: 2800000, guid: 845787417cbd79940af26c08130bbf10, type: 3}
+  - GrassICON9: {fileID: 2800000, guid: f53528d83980c3e43857ce828235bb5f, type: 3}
+  - GrassICON10: {fileID: 2800000, guid: f82a6bc346ab7bc4fa0b068c8d436375, type: 3}
+  - FenceICON1: {fileID: 2800000, guid: f3ae205f71bf4bc4bbb48a3e2fbd7eca, type: 3}
+  - FenceICON2: {fileID: 2800000, guid: bf312040dcec9a34a86f8f0e43d0c2ec, type: 3}
+  - RockICON1: {fileID: 2800000, guid: d5fbe04b6db65f54c81bd98e17f300ab, type: 3}
+  - RockICON2: {fileID: 2800000, guid: f536a8bce41f884489262f27f8fd2034, type: 3}
+  - RockICON3: {fileID: 2800000, guid: cc4f695299a2c704d9995600cbebcf03, type: 3}
+  - grass_material: {fileID: 2100000, guid: a622bf7f5d739ce4db16f71493a2d6da, type: 2}
+  - grass_flower_material: {fileID: 2100000, guid: cc88c7b9dcf4ddb47ae7df875429f62a,
+      type: 2}
+  - grass_wheet_material: {fileID: 2100000, guid: 5e287f6009544e649863e7d1b56bcacb,
+      type: 2}
+  - grass_vertex_material: {fileID: 2100000, guid: 1a08e3db6b21d7d4fa5ad4aee6ed84a3,
+      type: 2}
+  - grass_vertex2_material: {fileID: 2100000, guid: 7a8bdc44402110e43b11a158cd672d64,
+      type: 2}
+  - grass_vertexHEAVY_material: {fileID: 2100000, guid: 1a08e3db6b21d7d4fa5ad4aee6ed84a3,
+      type: 2}
+  - grass_whites_material: {fileID: 2100000, guid: 4c276d4214a53124b89446e18a715278,
+      type: 2}
+  - grass_curved_vertex_material: {fileID: 2100000, guid: 0f4d15fc57fc7514fb81dcf2552d0321,
+      type: 2}
+  - grass_low_grass_material: {fileID: 2100000, guid: 96545901bb4cae64896168b0da76046c,
+      type: 2}
+  - grass_vines_material: {fileID: 2100000, guid: 7f8c137ecc94cd141b25addddbc78aa3,
+      type: 2}
+  - grass_prefab: {fileID: 178718, guid: 8a104f8347768eb4497e22a371131820, type: 2}
+  - grass_flower_prefab: {fileID: 178718, guid: 697d964167b23e74baa841657ba296da,
+      type: 2}
+  - grass_wheet_prefab: {fileID: 178718, guid: fe8a5696ad74e8e4aa2fcacf431c0c7d, type: 2}
+  - grass_vertex_prefab: {fileID: 146500, guid: 73a4e9ce01d6c3647b9728109290e4c3,
+      type: 2}
+  - grass_vertex2_prefab: {fileID: 146500, guid: d333860a476a7a5419e84ca95b6dd934,
+      type: 2}
+  - grass_vertexHEAVY_prefab: {fileID: 146500, guid: 3f6b4fbd91d7a5d47a269dd5b94406e5,
+      type: 2}
+  - grass_whites_prefab: {fileID: 178718, guid: ec806ffb0ffcc5146b8cd59754090161,
+      type: 2}
+  - grass_curved_vertex_prefab: {fileID: 146500, guid: 68aa6653a2babca4b97d19fc7a57660e,
+      type: 2}
+  - grass_low_grass_prefab: {fileID: 178718, guid: 0260e8572ac597a4ab2a88eba994faac,
+      type: 2}
+  - grass_vines_prefab: {fileID: 178718, guid: 9dde28915350cca4b9d305eb51eb0a99, type: 2}
+  - rock_prefab: {fileID: 146648, guid: 71109c883b2d7cc43ae3970233299679, type: 2}
+  - fence_prefab: {fileID: 105420, guid: 3118177511a0d9a46a18a750ea50f405, type: 2}
+  - fence_mid_prefab: {fileID: 105420, guid: e71a527f158e3514baa21eafe86fd7f9, type: 2}
+  - rock_prefab1: {fileID: 186950, guid: 8afa48dbb69c1c249847082114aa0263, type: 2}
+  - rock_prefab2: {fileID: 186950, guid: 9a07d24a236026944b99c843353f3919, type: 2}
+  - fence_prefab1: {fileID: 105420, guid: 01608192fd63abb478438ceda40e34f6, type: 2}
+  - fence_mid_prefab1: {fileID: 105420, guid: 877401b3899db2a44a8737fa2adf4ef3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
